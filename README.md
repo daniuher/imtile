@@ -3,6 +3,7 @@
 
 
 **imtile** is a Python toolbox for slicing-up 3D images into sub-images (tiles). Matrices into sub-matrices.
+Furthermore, it can reconstruct the image back from the tiles.
 Basically same as [image_slicer](https://github.com/samdobson/image_slicer) but for 3D images. 
 
 So far, the functionality is very very basic and not tested much. There are some libraries available for this,
