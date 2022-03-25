@@ -13,18 +13,17 @@ Usage:
 
 ```
 from imtile import im2tiles, tiles2im
-```
 
-\# load a 3D image
+image_data = ... # load a 3D image
 
-```
 tiles = im2tiles(image_data, tile_shape, **kwargs)
-```
-  Slices the 3D image_data [x,y,z] into tiles sized tile_shape [i,j,k]
-  out: [n_tiles, i,j,k] array
 
-```
+# Slices the 3D image_data [x,y,z] into tiles sized tile_shape [i,j,k]
+# out: [n_tiles, i,j,k] array
+
+
 image = tiles2im(tiles, image_shape)
-```  
-  Takes the tiles array [n_tiles, i,j,k] and reorganizes it into a full image sized image_shape [x,y,z].
+
+# Takes the tiles array [n_tiles, i,j,k] and reorganizes it into a full image sized image_shape [x,y,z].
+```
   
