@@ -12,6 +12,12 @@ but I wanted something super simple and fast. This is it, just three functions a
 Usage:
 
 ```
+from imtile import im2tiles, tiles2im
+```
+
+\# load a 3D image
+
+```
 tiles = im2tiles(image_data, tile_shape, **kwargs)
 ```
   Slices the 3D image_data [x,y,z] into tiles sized tile_shape [i,j,k]
